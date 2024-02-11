@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex flex-col items-center justify-center h-screen text-white font-montserrat">
-	<a href="contact">
+	<a href="{base}/contact">
 		<img
 			src="{base}/logo.png"
 			class="transition-all duration-1000 hover:grayscale-0 grayscale filter cursor-pointer rounded-lg"

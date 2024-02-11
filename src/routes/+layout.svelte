@@ -1,10 +1,6 @@
 <script>
 	import '../app.css';
 	import { page } from '$app/stores';
-
-	export const prerender = true;
-
-	export const trailingSlash = 'always';
 </script>
 
 <div
