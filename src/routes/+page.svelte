@@ -1,5 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 	import { base } from '$app/paths';
 </script>
 
@@ -9,7 +10,7 @@
 			src="{base}/logo.png"
 			class="transition-all duration-1000 hover:grayscale-0 grayscale filter cursor-pointer rounded-lg"
 			alt="Logo"
-			in:fade={{ delay: 300, duration: 300 }}
+			in:fly={{ delay: 300, duration: 300 }}
 		/>
 	</a>
 </div>
