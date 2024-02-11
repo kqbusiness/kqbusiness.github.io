@@ -16,7 +16,32 @@
 			label: 'Sunset lamp',
 			price: 8,
 			image: `${base}/logo.png`
-		}
+		},
+				{
+			label: 'Sunset lamp',
+			price: 8,
+			image: `${base}/logo.png`
+		},
+				{
+			label: 'Sunset lamp',
+			price: 8,
+			image: `${base}/logo.png`
+		},
+				{
+			label: 'Sunset lamp',
+			price: 8,
+			image: `${base}/logo.png`
+		},
+				{
+			label: 'Sunset lamp',
+			price: 8,
+			image: `${base}/logo.png`
+		},
+				{
+			label: 'Sunset lamp',
+			price: 8,
+			image: `${base}/logo.png`
+		},
 	];
 </script>
 
