@@ -15,7 +15,7 @@
 		{
 			label: 'Sunset lamp',
 			price: 8,
-			image: `${base}/logo.png`
+			image: `../logo.png`
 		}
 	];
 </script>
