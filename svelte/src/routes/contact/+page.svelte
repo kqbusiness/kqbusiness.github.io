@@ -7,7 +7,7 @@
 	// 	price: 8,
 	// 	image: '/logo.png'
 	// });
-
+	import { base } from '$app/paths';
 	const products = writable([]);
 
 	$products = [
@@ -15,12 +15,12 @@
 		{
 			label: 'Sunset Hej',
 			price: 8,
-			image: '/logo.png'
+			image: `${base}/logo.png`
 		},
 		{
 			label: 'Sunset lamp',
 			price: 8,
-			image: '/logo.png'
+			image: `${base}/logo.png`
 		}
 	];
 </script>
