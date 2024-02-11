@@ -40,11 +40,9 @@
 		{#each $products as product}
 			<div class="bg-neutral-950 p-4 rounded-md text-white">
 				<img src={product.image} alt="product" class="w-32 border-2 border-orange-500 rounded-md" />
-				<h1 class="w-full text-center mt-2 font-Guerilla">{product.label}</h1>
+				<h1 class="w-full text-center my-2 font-Guerilla font-semibold">{product.label}</h1>
 				<a href="/">
-					<h2
-						class="bg-orange-500 w-full text-center py-1 px-2 font-semibold rounded-sm font-Guerilla"
-					>
+					<h2 class="bg-orange-500 w-full text-center py-1 px-2 rounded-sm font-Guerilla">
 						{product.price} Euro
 					</h2>
 				</a>
